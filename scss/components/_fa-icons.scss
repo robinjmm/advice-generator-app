@@ -1,0 +1,6 @@
+@use "../base/variables" as *;
+
+.fa-github {
+	font-size: toRem(30);
+	color: var(--bg-button);
+}

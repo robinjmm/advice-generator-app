@@ -15,11 +15,11 @@ export default defineConfig({
 				postcssPresetEnv({
 					stage: 2,
 				}),
-//				purgeCSSPlugin({
-//					content: ["./index.html"],
-//					variables: true,
-//					keyframes: true
-//				})
+				purgeCSSPlugin({
+					content: ["./index.html"],
+					variables: true,
+					keyframes: true
+				})
 			]
 		}
 	}

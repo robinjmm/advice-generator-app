@@ -3,6 +3,13 @@
 body {
 	font-family: var(--ff-primary);
 	background-color: var(--bg-body);
-	display: grid;
-	place-items: center;
+	padding: toRem(80) 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	margin-block-start: toRem(100);
 }
