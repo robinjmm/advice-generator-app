@@ -1,0 +1,8 @@
+@use "../base/variables" as *;
+
+body {
+	font-family: var(--ff-primary);
+	background-color: var(--bg-body);
+	display: grid;
+	place-items: center;
+}

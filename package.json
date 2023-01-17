@@ -1,0 +1,36 @@
+{
+	"name": "advice-generator-app",
+	"version": "1.0.0",
+	"description": "My solution for the Advice Generator App challenge from Frontendmentor.io",
+	"type": "module",
+	"browserslist": [
+		"defaults and supports es6-module",
+		"maintained node versions"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robinjmm/advice-generator-app.git"
+	},
+	"author": "robinjmm",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/robinjmm/advice-generator-app/issues"
+	},
+	"homepage": "https://github.com/robinjmm/advice-generator-app#readme",
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.2.1",
+		"postcss-preset-env": "^7.8.3",
+		"sass": "^1.57.1"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^5.0.0",
+		"postcss": "^8.4.21",
+		"vite": "^4.0.4",
+		"vite-plugin-html": "^3.2.0"
+	}
+}

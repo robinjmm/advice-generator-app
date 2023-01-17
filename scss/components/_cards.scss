@@ -1,0 +1,33 @@
+@use "../base/variables" as *;
+
+.card {
+	background-color: var(--bg-card);
+	width: min(91%, 530px);
+	padding: toRem(44) 0 toRem(70);
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 20px 31px 8px rgba(0,0,0,0.1);
+
+	&__advice {
+		color: var(--text-primary);
+		font-size: toRem(24);
+		font-weight: var(--fw-normal);
+		text-align: center;
+		width: 18ch;
+		margin: toRem(20) auto;
+	}
+
+	&__advice-num {
+		color: var(--text-accent-cyan);
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: toEm(6, 16);
+		font-size: toRem(12);
+	}
+
+	&__divider {
+		width: min(90%, 440px);
+		margin: 0 auto;
+		padding-top: toRem(12);
+	}
+}
